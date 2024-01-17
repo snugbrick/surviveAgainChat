@@ -54,7 +54,6 @@ public class SocketFrameClient extends JFrame {
             }
         });
 
-
         textArea = new JTextArea();
         textArea.setEditable(false);
         add(new JScrollPane(textArea));
