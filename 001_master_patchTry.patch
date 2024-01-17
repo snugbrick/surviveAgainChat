@@ -1,0 +1,18 @@
+Subject: [PATCH] 001.master.patchTry
+---
+Index: src/main/java/cn/miracle/chat/client/SocketFrameClient.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/cn/miracle/chat/client/SocketFrameClient.java b/src/main/java/cn/miracle/chat/client/SocketFrameClient.java
+--- a/src/main/java/cn/miracle/chat/client/SocketFrameClient.java	(revision 64d5cf67530462d26af727bcdf8c8834f8c2461c)
++++ b/src/main/java/cn/miracle/chat/client/SocketFrameClient.java	(date 1704891848469)
+@@ -54,7 +54,6 @@
+             }
+         });
+ 
+-
+         textArea = new JTextArea();
+         textArea.setEditable(false);
+         add(new JScrollPane(textArea));
