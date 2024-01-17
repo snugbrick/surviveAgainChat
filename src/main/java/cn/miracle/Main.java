@@ -24,6 +24,7 @@ public class Main {
         } catch (UnknownHostException e) {
             throw new RuntimeException(e);
         }
+
         new SocketFrameServer();
 
         EntityTasks.registerEntity(new zombie());
